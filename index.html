@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <header class="header">
+        <h1 class="title">Etch-a-Sketch</h1>
+    </header>
+    <div id="container">
+        <div id="grid" class="grid"></div>
+        <div class="settings">
+            <div id="color-container">
+                <input id="color-picker" type="color" value="#333333" />
+            </div>
+            <button id="color-btn">Color mode</button>
+            <button id="rainbow-btn">Rainbow mode</button>
+            <button id="eraser-btn">Eraser</button>
+            <button id="clear-btn">Clear</button>
+            <div id="size-value" class="size-value">64 x 64</div>
+            <input id="size-slider" type="range" value="64" min="16" max="100" />
+        </div>
+    </div>
+    <footer class="footer">
+        <a href="https://github.com/andrewpark3412" target="_blank">Copyright © 2021 Andrew Park</a>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
